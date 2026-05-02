@@ -13,3 +13,6 @@
 [submodule "projects/ts-mathematica"]
 	path = projects/ts-mathematica
 	url = https://github.com/sguzman/ts-mathematica.git
+[submodule "projects/articles"]
+	path = projects/articles
+	url = https://github.com/sguzman/articles.git

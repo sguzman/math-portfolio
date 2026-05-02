@@ -20,6 +20,7 @@ Mathematica-driven simulations.
 | **[Math Research](projects/math-research)** | Curated topics and directions. | [Notes](notes/math-research.md) |
 | **[Mathematica Data](projects/mathematica-data)** | Computational results and data. | [Notes](notes/mathematica-data.md) |
 | **[TS-Mathematica](projects/ts-mathematica)** | TypeScript & Wolfram analysis. | [Notes](notes/ts-mathematica.md) |
+| **[Articles](projects/articles)** | Treatises, idea lists, and cross-disciplinary notes with some mathematical articles and agendas. | [Notes](notes/articles.md) |
 
 ---
 
