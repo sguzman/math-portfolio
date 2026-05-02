@@ -1,0 +1,15 @@
+[submodule "projects/MathematicaMathFun"]
+	path = projects/MathematicaMathFun
+	url = https://github.com/sguzman/MathematicaMathFun.git
+[submodule "projects/MathWhiteBoard"]
+	path = projects/MathWhiteBoard
+	url = https://github.com/sguzman/MathWhiteBoard.git
+[submodule "projects/math-research"]
+	path = projects/math-research
+	url = https://github.com/sguzman/math-research.git
+[submodule "projects/mathematica-data"]
+	path = projects/mathematica-data
+	url = https://github.com/sguzman/mathematica-data.git
+[submodule "projects/ts-mathematica"]
+	path = projects/ts-mathematica
+	url = https://github.com/sguzman/ts-mathematica.git
