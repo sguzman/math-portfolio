@@ -22,6 +22,12 @@ diversity, the documentation is divided into thematic deep dives.
   A collection of "graveyard" or highly experimental scripts where new ideas
   are tested and sometimes abandoned.
 
+## 📊 Repository Statistics
+
+- **Total Files**: 130+ scripts and notebooks.
+- **Primary Formats**: `.wls` (WolframScript), `.nb` (Mathematica Notebook).
+- **Core Engine**: Wolfram Engine / Mathematica.
+
 ## 🚀 Getting Started
 
 Most files are `WolframScript` (`.wls`) files and can be run from the command
