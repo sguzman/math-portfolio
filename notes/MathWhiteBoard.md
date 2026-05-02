@@ -1,6 +1,7 @@
 # MathWhiteBoard
 
-Rough, unrefined research notes and whiteboard sketches. This is the 'scratchpad' of my mathematical thought process.
+Rough, unrefined research notes and whiteboard sketches. This is the
+'scratchpad' of my mathematical thought process.
 
 ## 📝 Contents
 

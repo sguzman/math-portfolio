@@ -1,6 +1,8 @@
 # Math Research
 
-A collection of topics in mathematics that I have researched or intend to research. This repository serves as a roadmap and a catalog of mathematical curiosity.
+A collection of topics in mathematics that I have researched or intend to
+research. This repository serves as a roadmap and a catalog of mathematical
+curiosity.
 
 ## 🚀 Research Roadmap
 
@@ -9,6 +11,7 @@ A collection of topics in mathematics that I have researched or intend to resear
 - **Aspirational Topics**: Areas I'm currently studying or plan to dive into soon.
 
 ## 📁 Repository Link
+
 [math-research](../projects/math-research)
 
 ---

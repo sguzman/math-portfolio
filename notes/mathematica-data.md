@@ -1,6 +1,7 @@
 # Mathematica Data
 
-Results and data outputs from various Mathematica computations. This repository acts as a storage layer for the 'hard work' done by the scripts.
+Results and data outputs from various Mathematica computations. This repository
+acts as a storage layer for the 'hard work' done by the scripts.
 
 ## 📊 Data Sets
 

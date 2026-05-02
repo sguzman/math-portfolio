@@ -1,6 +1,7 @@
 # TS-Mathematica
 
-Specialized mathematical analysis focused on stock market data and financial modeling using the Wolfram Language.
+Specialized mathematical analysis focused on stock market data and financial
+modeling using the Wolfram Language.
 
 ## 📈 Analysis Focus
 
