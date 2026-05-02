@@ -15,11 +15,11 @@ Mathematica-driven simulations.
 
 | Project | Description | Notes |
 | :--- | :--- | :--- |
-| **[MathematicaMathFun](projects/MathematicaMathFun)** | Core Mathematica research: Calculus of variations, complex analysis, and geometry. | [View Notes](notes/MathematicaMathFun.md) |
-| **[MathWhiteBoard](projects/MathWhiteBoard)** | Rough, unrefined research notes and whiteboard sketches. | [View Notes](notes/MathWhiteBoard.md) |
-| **[Math Research](projects/math-research)** | Curated list of research topics and aspirational directions. | [View Notes](notes/math-research.md) |
-| **[Mathematica Data](projects/mathematica-data)** | Repository for computational results and data outputs. | [View Notes](notes/mathematica-data.md) |
-| **[TS-Mathematica](projects/ts-mathematica)** | Specialized analysis (Stock analysis) using Wolfram Language. | [View Notes](notes/ts-mathematica.md) |
+| **[MathematicaMathFun](projects/MathematicaMathFun)** | Mathematica research: Calculus, geometry. | [Notes](notes/MathematicaMathFun.md) |
+| **[MathWhiteBoard](projects/MathWhiteBoard)** | Rough sketches and research notes. | [Notes](notes/MathWhiteBoard.md) |
+| **[Math Research](projects/math-research)** | Curated topics and directions. | [Notes](notes/math-research.md) |
+| **[Mathematica Data](projects/mathematica-data)** | Computational results and data. | [Notes](notes/mathematica-data.md) |
+| **[TS-Mathematica](projects/ts-mathematica)** | TypeScript & Wolfram analysis. | [Notes](notes/ts-mathematica.md) |
 
 ---
 
@@ -39,4 +39,5 @@ as a "living document" that I update as my research evolves.
 
 ---
 
-> "Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding." — William Paul Thurston
+> "Mathematics is not about numbers, equations, computations, or algorithms:
+> it is about understanding." — William Paul Thurston
