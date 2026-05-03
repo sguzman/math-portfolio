@@ -1,125 +1,148 @@
 # Math Portfolio
 
-This repository is the top-level map of my mathematical work. It collects a set of specialized repositories and pairs them with portfolio notes that explain what each repo is doing, how the ideas connect, and where the strongest research threads are.
+This repository is a map of my mathematical research areas. The point is not just to collect repositories, but to make legible the raw lines of thought running through them: iteration, curvature, symbolic structure, topology, analytic transforms, and the attempt to build better formalisms for mathematical intuition.
 
-The portfolio is not a single textbook-style project. It is a working research environment spanning exploratory Mathematica notebooks, graph-based whiteboard sketches, mathematical writing, data analysis, and article-scale idea development.
+Much of the work is exploratory. Some parts are computational, some are visual, some are article-scale, and some are only partially formalized. What unifies them is the attempt to treat mathematics as a live research process rather than a finished archive.
 
-## What this repo is for
+## Main research areas
 
-- centralize my math-related repositories in one place,
-- make exploratory work legible through curated notes,
-- preserve connections between raw experiments and higher-level research ideas,
-- and provide a readable overview of what I have been trying to build across multiple repos.
+### Iteration, dynamics, and Collatz
 
-## Core research themes
+One of the strongest recurring themes is repeated function application. I am interested in iteration not only as a discrete process, but as something that should admit its own algebra, geometry, and operator theory.
 
-Several themes recur across the portfolio:
+This includes:
 
-- **Iteration as a mathematical object**  
-  Repeated function application appears throughout the work, especially as algebra, geometry, operator theory, and Collatz-style dynamics.
+- Collatz-style dynamics and orbit behavior,
+- fractional or continuous versions of iteration,
+- function application as an analytic object,
+- operator-theoretic views of state evolution,
+- and symbolic or grammar-based reformulations of iterative systems.
 
-- **Curvature, geometry, and shape semantics**  
-  Curves, curvature, arc length, and geometric transformations are treated not only visually but as structural carriers of information.
+The broader goal is to turn “apply this function again” into something mathematically manipulable in its own right.
 
-- **Symbolic systems and expression structure**  
-  Expressions are often approached as manipulable programs, graph objects, or grammar-like constructions rather than as static notation.
+### Curvature, geometry, and shape semantics
 
-- **Complex numbers and transforms as unifying languages**  
-  Complex coordinates, integral transforms, and analytic operators are repeatedly used to reinterpret real-variable behavior.
+Another major area is the idea that curves carry semantic structure. Curvature is not just a geometric statistic here; it is often treated as information, control, or evidence of how a function is built.
 
-- **Formalization of intuition**  
-  Many repos begin as rough or speculative ideas and gradually move toward more explicit symbolic, computational, or note-based frameworks.
+This includes:
 
-- **Cross-disciplinary mathematical thinking**  
-  Some work extends into economics, finance, computation, writing, and philosophy while still being driven by mathematical structure.
+- curvature and arc-length analysis,
+- parametric curves and geometric deformation,
+- line-versus-curve comparisons,
+- Euclidean operations as analyzable primitives,
+- and the idea that complicated shapes may become simple in the right space.
 
-## Project map
+The recurring instinct is that geometry can explain symbolic behavior, not merely illustrate it.
 
-| Project | Role in the portfolio | Notes |
-| :--- | :--- | :--- |
-| **[MathematicaMathFun](projects/MathematicaMathFun)** | Largest exploratory math lab; Wolfram Language scripts and notebooks across iteration, Collatz, complex analysis, geometry, transforms, and symbolic experimentation. | [Notes](notes/MathematicaMathFun.md) |
-| **[MathWhiteBoard](projects/MathWhiteBoard)** | Visual scratchpad for modeling mathematical expressions as graphs and studying normalization through structure. | [Notes](notes/MathWhiteBoard.md) |
-| **[Math Research](projects/math-research)** | Curated research directions and paper-scale work, including PDFs tied to iteration and process-oriented themes. | [Notes](notes/math-research.md) |
-| **[Mathematica Data](projects/mathematica-data)** | Data-oriented Mathematica work focused on economic indicators, correlations, and structured datasets. | [Notes](notes/mathematica-data.md) |
-| **[TS-Mathematica](projects/ts-mathematica)** | Hybrid TypeScript and Wolfram work, especially around statistical and financial analysis. | [Notes](notes/ts-mathematica.md) |
-| **[Articles](projects/articles)** | Writing repo for treatises, math idea backlogs, research agendas, and conceptual material that sits above the code-heavy repos. | [Notes](notes/articles.md) |
+### Complex numbers and analytic representation
 
-## How the pieces fit together
+Complex numbers appear throughout the work as a unifying language for dynamics and geometry. They are used not only in a classical complex-analysis sense, but as a compact representation for rotation, scaling, curvature, and iterative behavior.
 
-This portfolio has a deliberate split between **raw work** and **explanatory work**:
+This includes:
 
-- `projects/` contains the original repositories as submodules.
-- `notes/` contains portfolio-side documentation that explains what those repos are doing.
+- polar and complex encodings of real phenomena,
+- holomorphic viewpoints on real-variable iteration,
+- domain-coloring and visualization-driven analysis,
+- and attempts to decompose real curves into complex-valued structure.
 
-That distinction matters because many source repos are exploratory by design. Their internal filenames, notebooks, or scratch scripts are often meaningful to me in context, but not automatically legible to someone approaching the work from outside. The notes layer is where I translate raw exploration into a more coherent map.
+The underlying question is whether complex language is not just useful, but the right representation for phenomena that look harder in purely real coordinates.
 
-In practice:
+### Symbolic structure, expressions, and algebraic computation
 
-- `MathematicaMathFun` contains the densest mathematical experimentation.
-- `MathWhiteBoard` captures structural and graph-based intuition.
-- `math-research` and `articles` capture the agenda-setting and article-level side of the work.
-- `mathematica-data` and `ts-mathematica` show more applied and computational branches.
+A large part of the portfolio treats expressions as structured computational objects. Algebra is often approached operationally: equations, expressions, and transforms are things to manipulate, normalize, compress, or reinterpret.
 
-## Reading guide
+This includes:
 
-If you want the shortest path through the portfolio, start here:
+- expressions as programs,
+- normal forms and symbolic compression,
+- algebraic objects as compositional structures,
+- graph-based representations of expressions,
+- and mathematical syntax as a carrier of execution semantics.
 
-1. Read `notes/MathematicaMathFun.md` for the main computational research program.
-2. Read `notes/articles.md` and `notes/articles/math.md` for the high-level idea backlog and mathematical worldview behind the experiments.
-3. Read `notes/math-research.md` for paper-scale direction.
-4. Read `notes/MathWhiteBoard.md` for expression-graph and normalization work.
-5. Read the applied notes in `notes/mathematica-data.md` and `notes/ts-mathematica.md` for the data-analysis side.
+This is one of the main bridges between the computational work and the more philosophical writing.
 
-## Repo structure
+### Topology, homotopy, and ambient-space reasoning
 
-- `projects/`: git submodules for the underlying repositories.
-- `notes/`: curated explanations, summaries, and thematic expansions.
-- `tmp/`: local scratch space for temporary work in this portfolio repo.
+There is also a persistent topological thread. The focus is less on textbook coverage and more on how connectedness, holes, boundaries, neighborhoods, and deformation can be used to reason about mathematical and symbolic objects.
 
-## Working style
+This includes:
 
-The portfolio reflects a specific way of doing mathematical work:
+- homotopy as interpolation and transformation,
+- boundary behavior under equivalence,
+- connectedness versus homology,
+- ambient-space methods for studying structure,
+- and questions about when interpolation preserves deeper structure.
 
-- start with an intuition, question, or symbolic pattern,
-- test it computationally, often in Wolfram Language,
-- split the idea into multiple small files or variants,
-- preserve both successful and failed branches,
-- then document the pattern afterwards in notes.
+The common pattern is to ask when geometric deformation preserves identity and when it changes the object in a deeper way.
 
-This means the repos are not uniformly polished. Some are close to research notebooks, some are closer to conceptual archives, and some are clearly structured subprojects. The value of the portfolio is in preserving the full research trail while making it interpretable.
+### Integral transforms, convolution, and structural probes
 
-## Tooling and mediums
+Transforms often appear as instruments for extracting hidden behavior. Convolution, Laplacians, Dirac delta methods, and integral transforms are treated as ways to interrogate functions rather than merely rewrite them.
 
-The main tools used across the portfolio are:
+This includes:
 
-- **Wolfram Mathematica / Wolfram Language** for symbolic computation, plotting, transforms, geometry, and data work.
-- **Markdown** for explanatory notes, research backlogs, and writing.
-- **Graphviz / DOT-style graph outputs** for expression and structure visualization.
-- **TypeScript** in the mixed computational repos where typed tooling supports mathematical workflows.
+- convolution as scanning or local action,
+- transforms as property detectors,
+- Laplacian-driven deformation,
+- zero-detection and localization methods,
+- and the idea of integral machinery as a general-purpose analysis framework.
 
-## What is documented here
+The deeper research instinct is that a good transform should expose structure that is otherwise difficult to see directly.
 
-The top-level notes are intended to do more than summarize filenames. They aim to identify:
+### Alternative spatial and algebraic representations
 
-- the dominant mathematical questions in each repo,
-- the internal categories of work,
-- the relationship between computational experiments and broader research goals,
-- and the conceptual links between separate repositories.
+Some work tries to redesign the underlying representation altogether. Instead of assuming standard coordinates, standard matrices, or standard geometric primitives are enough, the portfolio repeatedly experiments with alternative encodings.
 
-That is especially important for the larger repos, where the raw source material is too broad or too informal to be self-explanatory.
+This includes:
 
-## Current emphasis
+- representing curves as boolean or matrix-valued fields,
+- using infinite ambient matrices with zero-fill semantics,
+- relativizing `R^2` against a chosen reference curve,
+- alternative coordinate systems based on dot products or relational structure,
+- and interface-inspired operations such as scrolling or moving through mathematical space.
 
-At the current stage, the strongest documented emphasis is on:
+This area is exploratory, but it matters because it reflects a deeper belief that better representations can simplify harder mathematics.
 
-- iterative dynamics and functional calculus,
-- Collatz and grammar-like reformulations,
-- curvature and geometric semantics,
-- complex-number representations of real behavior,
-- transform-based analysis,
-- and mathematical writing that extracts broader theory from exploratory computation.
+### Meta-mathematics and research methodology
 
-## Notes index
+Not all of the work is about solving isolated problems. Some of it is about what mathematical formalisms are for, how they should be judged, and how intuition becomes tractable theory.
+
+This includes:
+
+- measuring the health of a formalism by the problems it can absorb,
+- the tradeoff between expressive power and tractability,
+- symbol fatigue and math anxiety,
+- the relation between structure and dynamics,
+- and the idea that some problems require formalisms with enough “infinity” built into them.
+
+This is the most reflective layer of the portfolio and explains why the raw work often moves between computation, notation, and conceptual writing.
+
+## How the work is expressed
+
+The research appears in several different forms:
+
+- computational experiments, mainly in Wolfram Language,
+- visual models of expressions and transformations,
+- mathematical notes and research backlogs,
+- article and treatise drafts,
+- and smaller applied studies involving data, finance, or statistical modeling.
+
+That variety is intentional. Some ideas are easiest to discover computationally, some visually, and some only after they are rewritten in prose.
+
+## Portfolio structure
+
+The repositories in `projects/` are the raw working sources. The notes in `notes/` are the explanatory layer that turns those sources into a readable research map.
+
+Current projects:
+
+- `projects/MathematicaMathFun`
+- `projects/MathWhiteBoard`
+- `projects/math-research`
+- `projects/mathematica-data`
+- `projects/ts-mathematica`
+- `projects/articles`
+
+Current top-level notes:
 
 - `notes/MathematicaMathFun.md`
 - `notes/MathWhiteBoard.md`
@@ -129,6 +152,17 @@ At the current stage, the strongest documented emphasis is on:
 - `notes/articles.md`
 - `notes/articles/math.md`
 
+## Reading guide
+
+If you want the clearest overview of the mathematical content, start with:
+
+1. `notes/MathematicaMathFun.md`
+2. `notes/articles.md`
+3. `notes/articles/math.md`
+4. `notes/math-research.md`
+
+Then use the project repos as the raw source layer behind those summaries.
+
 ## Status
 
-This is a living portfolio. It is expected to expand as additional repositories, raw files, and notes are incorporated. The documentation layer is meant to keep pace with that growth so the overall body of work remains navigable.
+This is a living research portfolio. More repositories, notes, and raw files will be added over time. The aim is to preserve the exploratory character of the work while making the overall mathematical program increasingly explicit.
