@@ -8,6 +8,7 @@
 - **Repository style**: compact note lists rather than finished longform manuscripts.
 - **Current structure**: one `README.md` plus six note files under `projects/articles/notes`.
 - **Role in this portfolio**: conceptual and editorial companion to the more technical math repositories.
+- **Dedicated expansion**: `notes/articles/math.md` gives a categorized, line-by-line exposition of `projects/articles/notes/math.md`.
 
 ## What the repo contains
 
@@ -63,6 +64,7 @@ These files matter because they explain the conceptual inputs feeding the math w
 
 - `projects/articles/README.md`: top-level description of the repository as a treatise and note collection.
 - `projects/articles/notes/math.md`: the main mathematical research backlog and idea ledger.
+- `notes/articles/math.md`: portfolio-side expansion of the math backlog, grouped by topic with exposition for every original idea.
 - `projects/articles/notes/math-brags.md`: short list of mathematical ideas and self-assessed original insights.
 - `projects/articles/notes/treatise.md`: master list of drafted and planned treatises, including several math-adjacent essays.
 - `projects/articles/notes/cs.md`: computer science idea backlog, especially around formal systems and type theory.
