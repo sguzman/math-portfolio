@@ -16,3 +16,6 @@
 [submodule "projects/articles"]
 	path = projects/articles
 	url = https://github.com/sguzman/articles.git
+[submodule "projects/collatz-junk"]
+	path = projects/collatz-junk
+	url = https://github.com/sguzman/collatz-junk.git

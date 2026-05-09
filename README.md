@@ -137,6 +137,7 @@ Current projects:
 
 - `projects/MathematicaMathFun`
 - `projects/MathWhiteBoard`
+- `projects/collatz-junk`
 - `projects/math-research`
 - `projects/mathematica-data`
 - `projects/ts-mathematica`
@@ -146,6 +147,7 @@ Current top-level notes:
 
 - `notes/MathematicaMathFun.md`
 - `notes/MathWhiteBoard.md`
+- `notes/collatz-junk.md`
 - `notes/math-research.md`
 - `notes/mathematica-data.md`
 - `notes/ts-mathematica.md`
